@@ -23,6 +23,7 @@
 		2F84389627F31B4D008BE2B0 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84389527F31B4D008BE2B0 /* Weather.swift */; };
 		2F84389827F31B65008BE2B0 /* WeatherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84389727F31B65008BE2B0 /* WeatherError.swift */; };
 		2F84389A27F31B79008BE2B0 /* LatestWeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84389927F31B79008BE2B0 /* LatestWeatherResponse.swift */; };
+		2F84389F27F31BE0008BE2B0 /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F84389E27F31BE0008BE2B0 /* Weather.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		2F84389527F31B4D008BE2B0 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		2F84389727F31B65008BE2B0 /* WeatherError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherError.swift; sourceTree = "<group>"; };
 		2F84389927F31B79008BE2B0 /* LatestWeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestWeatherResponse.swift; sourceTree = "<group>"; };
+		2F84389E27F31BE0008BE2B0 /* Weather.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 		2F84389D27F31BA2008BE2B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2F84389E27F31BE0008BE2B0 /* Weather.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F84385C27F3189B008BE2B0 /* LaunchScreen.storyboard in Resources */,
+				2F84389F27F31BE0008BE2B0 /* Weather.storyboard in Resources */,
 				2F84385927F3189B008BE2B0 /* Assets.xcassets in Resources */,
 				2F84385727F31898008BE2B0 /* Main.storyboard in Resources */,
 			);
