@@ -13,9 +13,9 @@
 		2F84385727F31898008BE2B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F84385527F31898008BE2B0 /* Main.storyboard */; };
 		2F84385927F3189B008BE2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F84385827F3189B008BE2B0 /* Assets.xcassets */; };
 		2F84385C27F3189B008BE2B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F84385A27F3189B008BE2B0 /* LaunchScreen.storyboard */; };
-		2F84386727F3189B008BE2B0 /* BaluchonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84386627F3189B008BE2B0 /* BaluchonTests.swift */; };
-		2F84387127F3189B008BE2B0 /* BaluchonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84387027F3189B008BE2B0 /* BaluchonUITests.swift */; };
-		2F84387327F3189B008BE2B0 /* BaluchonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84387227F3189B008BE2B0 /* BaluchonUITestsLaunchTests.swift */; };
+		2F84388027F3191B008BE2B0 /* TranslateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84387F27F3191B008BE2B0 /* TranslateTests.swift */; };
+		2F84388227F31962008BE2B0 /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84388127F31962008BE2B0 /* WeatherTests.swift */; };
+		2F84388427F31990008BE2B0 /* CurrencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84388327F31990008BE2B0 /* CurrencyConverterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +45,10 @@
 		2F84385B27F3189B008BE2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F84385D27F3189B008BE2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F84386227F3189B008BE2B0 /* BaluchonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaluchonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F84386627F3189B008BE2B0 /* BaluchonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaluchonTests.swift; sourceTree = "<group>"; };
 		2F84386C27F3189B008BE2B0 /* BaluchonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaluchonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F84387027F3189B008BE2B0 /* BaluchonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaluchonUITests.swift; sourceTree = "<group>"; };
-		2F84387227F3189B008BE2B0 /* BaluchonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaluchonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F84387F27F3191B008BE2B0 /* TranslateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateTests.swift; sourceTree = "<group>"; };
+		2F84388127F31962008BE2B0 /* WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTests.swift; sourceTree = "<group>"; };
+		2F84388327F31990008BE2B0 /* CurrencyConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,6 @@
 			children = (
 				2F84384E27F31898008BE2B0 /* Baluchon */,
 				2F84386527F3189B008BE2B0 /* BaluchonTests */,
-				2F84386F27F3189B008BE2B0 /* BaluchonUITests */,
 				2F84384D27F31898008BE2B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,18 +112,11 @@
 		2F84386527F3189B008BE2B0 /* BaluchonTests */ = {
 			isa = PBXGroup;
 			children = (
-				2F84386627F3189B008BE2B0 /* BaluchonTests.swift */,
+				2F84387F27F3191B008BE2B0 /* TranslateTests.swift */,
+				2F84388127F31962008BE2B0 /* WeatherTests.swift */,
+				2F84388327F31990008BE2B0 /* CurrencyConverterTests.swift */,
 			);
 			path = BaluchonTests;
-			sourceTree = "<group>";
-		};
-		2F84386F27F3189B008BE2B0 /* BaluchonUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2F84387027F3189B008BE2B0 /* BaluchonUITests.swift */,
-				2F84387227F3189B008BE2B0 /* BaluchonUITestsLaunchTests.swift */,
-			);
-			path = BaluchonUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F84386727F3189B008BE2B0 /* BaluchonTests.swift in Sources */,
+				2F84388227F31962008BE2B0 /* WeatherTests.swift in Sources */,
+				2F84388427F31990008BE2B0 /* CurrencyConverterTests.swift in Sources */,
+				2F84388027F3191B008BE2B0 /* TranslateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F84387327F3189B008BE2B0 /* BaluchonUITestsLaunchTests.swift in Sources */,
-				2F84387127F3189B008BE2B0 /* BaluchonUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
