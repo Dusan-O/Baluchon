@@ -16,6 +16,9 @@
 		2F84388027F3191B008BE2B0 /* TranslateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84387F27F3191B008BE2B0 /* TranslateTests.swift */; };
 		2F84388227F31962008BE2B0 /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84388127F31962008BE2B0 /* WeatherTests.swift */; };
 		2F84388427F31990008BE2B0 /* CurrencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84388327F31990008BE2B0 /* CurrencyConverterTests.swift */; };
+		2F84388B27F31A33008BE2B0 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84388A27F31A33008BE2B0 /* ApiKeys.swift */; };
+		2F84388D27F31A4F008BE2B0 /* CommonProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84388C27F31A4F008BE2B0 /* CommonProtocols.swift */; };
+		2F84388F27F31A81008BE2B0 /* UIViewControllerAndAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84388E27F31A81008BE2B0 /* UIViewControllerAndAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		2F84387F27F3191B008BE2B0 /* TranslateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateTests.swift; sourceTree = "<group>"; };
 		2F84388127F31962008BE2B0 /* WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTests.swift; sourceTree = "<group>"; };
 		2F84388327F31990008BE2B0 /* CurrencyConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterTests.swift; sourceTree = "<group>"; };
+		2F84388A27F31A33008BE2B0 /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		2F84388C27F31A4F008BE2B0 /* CommonProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonProtocols.swift; sourceTree = "<group>"; };
+		2F84388E27F31A81008BE2B0 /* UIViewControllerAndAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerAndAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,13 +104,12 @@
 		2F84384E27F31898008BE2B0 /* Baluchon */ = {
 			isa = PBXGroup;
 			children = (
-				2F84384F27F31898008BE2B0 /* AppDelegate.swift */,
+				2F84388927F31A03008BE2B0 /* Source */,
+				2F84388727F319EE008BE2B0 /* Translate */,
+				2F84388627F319E7008BE2B0 /* Currency */,
+				2F84388527F319E1008BE2B0 /* Weather */,
 				2F84385127F31898008BE2B0 /* SceneDelegate.swift */,
 				2F84385327F31898008BE2B0 /* ViewController.swift */,
-				2F84385527F31898008BE2B0 /* Main.storyboard */,
-				2F84385827F3189B008BE2B0 /* Assets.xcassets */,
-				2F84385A27F3189B008BE2B0 /* LaunchScreen.storyboard */,
-				2F84385D27F3189B008BE2B0 /* Info.plist */,
 			);
 			path = Baluchon;
 			sourceTree = "<group>";
@@ -117,6 +122,42 @@
 				2F84388327F31990008BE2B0 /* CurrencyConverterTests.swift */,
 			);
 			path = BaluchonTests;
+			sourceTree = "<group>";
+		};
+		2F84388527F319E1008BE2B0 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		2F84388627F319E7008BE2B0 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		2F84388727F319EE008BE2B0 /* Translate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Translate;
+			sourceTree = "<group>";
+		};
+		2F84388927F31A03008BE2B0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2F84385D27F3189B008BE2B0 /* Info.plist */,
+				2F84385527F31898008BE2B0 /* Main.storyboard */,
+				2F84385A27F3189B008BE2B0 /* LaunchScreen.storyboard */,
+				2F84388A27F31A33008BE2B0 /* ApiKeys.swift */,
+				2F84388C27F31A4F008BE2B0 /* CommonProtocols.swift */,
+				2F84384F27F31898008BE2B0 /* AppDelegate.swift */,
+				2F84385827F3189B008BE2B0 /* Assets.xcassets */,
+				2F84388E27F31A81008BE2B0 /* UIViewControllerAndAlert.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +293,10 @@
 			files = (
 				2F84385427F31898008BE2B0 /* ViewController.swift in Sources */,
 				2F84385027F31898008BE2B0 /* AppDelegate.swift in Sources */,
+				2F84388B27F31A33008BE2B0 /* ApiKeys.swift in Sources */,
 				2F84385227F31898008BE2B0 /* SceneDelegate.swift in Sources */,
+				2F84388D27F31A4F008BE2B0 /* CommonProtocols.swift in Sources */,
+				2F84388F27F31A81008BE2B0 /* UIViewControllerAndAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
